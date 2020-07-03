@@ -141,6 +141,7 @@ static struct ath_buf *ath9k_beacon_generate(struct ieee80211_hw *hw,
 	if (skb == NULL)
 		return NULL;
 
+// We will refer this part for our beacon transmission - lihao
 #ifdef CPTCFG_RT_WIFI
 	/* Append TDMA information to a beacon frame by vendor specific info. */
 	if (sc->rt_wifi_enable == 1) {

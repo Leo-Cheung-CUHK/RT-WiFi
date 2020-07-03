@@ -35,6 +35,8 @@
 /* rt-wifi constant */
 #define RT_WIFI_TIMER_OFFSET  50	/* compensate the isr invoking time */
 #define RT_WIFI_TSF_SYNC_OFFSET 1000 /* max sync error in micro-sec */
+
+// In this case, the appeneded payload is with 17 bytes - Lihao
 #define RT_WIFI_BEACON_VEN_EXT_SIZE 17  // Size of vendor extension in beacon frame
 #define BEACON_FCS_SIZE 4    		// Size of frame check sequence in byte
 #define RT_WIFI_BEACON_TAG    0xFE

@@ -382,7 +382,7 @@ bool rt_wifi_dst_sta(u8 *addr, u8 sta_id) {
 	return false;
 }
 
-
+// We will refer this function for our beacon reception - lihao
 void ath_rt_wifi_rx_beacon(struct ath_softc *sc, struct sk_buff *skb)
 {
 	struct ath_hw *ah = sc->sc_ah;
